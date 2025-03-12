@@ -59,7 +59,7 @@ printf("CADASTROS DAS CARTAS SUPER TRUNFO \n \v");
 
 printf("Carta 1\n\v");
 printf("Estado: %s \n", estado1);
-printf("Código da Carta: %s \n",codigo1);
+printf("Código da Carta: %s%s \n", estado1, codigo1);
 printf("Nome da Cidade: %s \n", cidade1);
 printf("População:%d \n", populacao1);
 printf("Área:%f Km² \n", area1);
@@ -67,7 +67,7 @@ printf("PIB:%f bilhões de reais \n", pib1);
 printf("Número de pontos turístico: %i \n\v", pontos1);
 printf("Carta 2\n\v");
 printf("Estado: %s \n", estado2);
-printf("Código da Carta: %s \n", codigo2);
+printf("Código da Carta: %s%s \n", estado2, codigo2);
 printf("Nome da Cidade: %s \n", cidade2);
 printf("População: %d milhões \n", populacao2);
 printf("Área: %f Km² \n", area2);
