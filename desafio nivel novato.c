@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-printf("Desafio Nivel Novato");
+printf("Desafio Nivel Novato \n\v");
 
 ////Declarando Tipo e Variáveis das duas cartas.
 char estado1[2], estado2[2];
-char codigo1[2], codigo2[2];
+char codigo1[4], codigo2[4];
 char cidade1[15], cidade2[15];
 int populacao1, populacao2;
 float area1, area2;
@@ -59,7 +59,7 @@ printf("CADASTROS DAS CARTAS SUPER TRUNFO \n \v");
 
 printf("Carta 1\n\v");
 printf("Estado: %s \n", estado1);
-printf("Código da Carta: %s%s \n", estado1, codigo1);
+printf("Código da Carta: %s%s \n", estado1,codigo1);
 printf("Nome da Cidade: %s \n", cidade1);
 printf("População:%d \n", populacao1);
 printf("Área:%f Km² \n", area1);
